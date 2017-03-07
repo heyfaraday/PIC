@@ -1,4 +1,4 @@
-#include "constants.h"
+#include "constants.hpp"
 
 const double PI = 3.141592;
 const double c = 3.0e10;

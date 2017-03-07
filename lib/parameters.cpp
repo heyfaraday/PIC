@@ -3,7 +3,7 @@
 #include <vector>
 #include <sstream>
 
-#include "parameters.h"
+#include "parameters.hpp"
 
 bool is_number(const std::string& s) {
     if (s.empty())

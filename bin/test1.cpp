@@ -2,10 +2,10 @@
 #include <vector>
 #include <string>
 
-#include "boris_push.h"
-#include "constants.h"
-#include "parameters.h"
-#include "field.h"
+#include "boris_push.hpp"
+#include "constants.hpp"
+#include "parameters.hpp"
+#include "field.hpp"
 
 
 int main() {

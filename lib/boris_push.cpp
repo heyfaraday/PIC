@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-#include "boris_push.h"
+#include "boris_push.hpp"
 
 void vectorCross(std::vector<double>& a, std::vector<double>& b,
                  std::vector<double>& result) {

@@ -1,8 +1,8 @@
 #import <vector>
 
 #import "math.h"
-#import "parameters.h"
-#import "constants.h"
+#import "parameters.hpp"
+#import "constants.hpp"
 
 void updateE(std::vector<double>& E, double t, double dt) {
 
