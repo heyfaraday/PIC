@@ -1,6 +1,5 @@
-#import "math.h"
-#include <iostream>
 #include <vector>
+#import "math.h"
 
 #include "boris_push.hpp"
 
