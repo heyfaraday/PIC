@@ -1,11 +1,11 @@
 dt_input    0.1
 t_start_input    0.0
-t_end_input    200.0
+t_end_input    1000.0
 chargeOverMass_input    0.01
 
 Bx_input    0.0
 By_input    0.0
-Bz_input    0.0
+Bz_input    10.0
 
 Ex_input    0.0
 Ey_input    0.0
@@ -16,5 +16,5 @@ X2_input    0.0
 X3_input    0.0
 
 U1_input    0.0
-U2_input    0.0
+U2_input    5.0
 U3_input    0.0

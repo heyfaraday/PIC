@@ -24,8 +24,8 @@ int main() {
         
         borisPusher_explicit(u, E, B, chargeOverMass_input, dt_input);
         updateX(u, x, dt_input);
-        updateE(E, t, dt_input);
-        updateB(B, t, dt_input);
+        updateE(E, x, u, t, dt_input);
+        updateB(B, x, u, t, dt_input);
         
         t += dt_input;
     }
