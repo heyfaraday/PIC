@@ -75,9 +75,9 @@ const double X1 = read_from_file("X1_input");
 const double X2 = read_from_file("X2_input");
 const double X3 = read_from_file("X3_input");
 
-const double U1 = read_from_file("U1_input");
-const double U2 = read_from_file("U2_input");
-const double U3 = read_from_file("U3_input");
+const double V1 = read_from_file("V1_input");
+const double V2 = read_from_file("V2_input");
+const double V3 = read_from_file("V3_input");
 
 const double dt_input = read_from_file("dt_input");
 const double t_start_input = read_from_file("t_start_input");
@@ -88,4 +88,4 @@ const std::vector<double> B_start{0.0, Bx, By, Bz};
 const std::vector<double> E_start{0.0, Ex, Ey, Ez};
 
 const std::vector<double> X_start{0.0, X1, X2, X3};
-const std::vector<double> U_start{0.0, U1, U2, U3};
+const std::vector<double> V_start{0.0, V1, V2, V3};
