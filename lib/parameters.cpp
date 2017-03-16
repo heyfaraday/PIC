@@ -6,7 +6,6 @@
 #include "parameters.hpp"
 
 bool is_number(const std::string& s) {
-
     if (s.empty())
         return false;
     bool trigger = false;
@@ -31,7 +30,6 @@ bool is_number(const std::string& s) {
 }
 
 double read_from_file(const std::string param) {
-
     std::ifstream infile("bin/input.parameters");
     std::string str;
 

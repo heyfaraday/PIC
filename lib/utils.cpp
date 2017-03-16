@@ -19,3 +19,7 @@ void updateX(std::vector<double>& v, std::vector<double>& x, double dt) {
 void updateGamma(std::vector<double>& v, double& gamma) {
     gamma = sqrt(1 - v.at(1) * v.at(1) - v.at(2) * v.at(2) - v.at(3) * v.at(3));
 }
+
+void updateGamma_v(std::vector<double>& v) {
+    v.at(0) = sqrt(1 - v.at(1) * v.at(1) - v.at(2) * v.at(2) - v.at(3) * v.at(3));
+}
