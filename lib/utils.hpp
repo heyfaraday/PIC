@@ -1,6 +1,10 @@
 #pragma once
 
-void vectorCross(std::vector<double> a, std::vector<double> b, std::vector<double>& result);
+std::vector<double> vectorCross(std::vector<double> a, std::vector<double> b);
+
+double scalarCross(std::vector<double> a, std::vector<double> b);
+
+double scalarCross_explicit(std::vector<double> a, std::vector<double> b);
 
 void updateX(std::vector<double> v, std::vector<double>& x, double dt);
 

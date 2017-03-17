@@ -19,13 +19,13 @@ void borisPusher(std::vector<double>& v, std::vector<double> E,
     f2 = (2.0 * f1) /
          (1.0 + f1 * f1 * (B.at(1) * B.at(1) + B.at(2) * B.at(2) + B.at(3) * B.at(3)));
 
-    vectorCross(v, B, v_cross_B);
+    v_cross_B = vectorCross(v, B);
 
     v_s.at(1) = v.at(1) + f1 * v_cross_B.at(1);
     v_s.at(2) = v.at(2) + f1 * v_cross_B.at(2);
     v_s.at(3) = v.at(3) + f1 * v_cross_B.at(3);
 
-    vectorCross(v_s, B, v_cross_B);
+    v_cross_B = vectorCross(v_s, B);
 
     v.at(1) += f2 * v_cross_B.at(1);
     v.at(2) += f2 * v_cross_B.at(2);
@@ -52,13 +52,13 @@ void borisPusher_explicit(std::vector<double>& v, std::vector<double> E,
     f2 = (2.0 * f1) /
          (1.0 + f1 * f1 * (B.at(1) * B.at(1) + B.at(2) * B.at(2) + B.at(3) * B.at(3)));
 
-    vectorCross(v, B, v_cross_B);
+    v_cross_B = vectorCross(v, B);
 
     v_s.at(1) = v.at(1) + f1 * v_cross_B.at(1);
     v_s.at(2) = v.at(2) + f1 * v_cross_B.at(2);
     v_s.at(3) = v.at(3) + f1 * v_cross_B.at(3);
 
-    vectorCross(v_s, B, v_cross_B);
+    v_cross_B = vectorCross(v_s, B);
 
     v.at(1) += f2 * v_cross_B.at(1);
     v.at(2) += f2 * v_cross_B.at(2);

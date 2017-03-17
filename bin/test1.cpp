@@ -25,6 +25,7 @@ int main() {
 
     while (t < t_end_input) {
         vayPusher(v, E, B, chargeOverMass_input, dt_input);
+
         updateX(v, x, dt_input);
 
         fprintf(fid, "%f %f %f %f %f %f %f\n", t, v.at(1), v.at(2), v.at(3),

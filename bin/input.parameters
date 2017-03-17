@@ -5,16 +5,16 @@ chargeOverMass_input    0.01
 
 Bx_input    0.0
 By_input    0.0
-Bz_input    10.0
+Bz_input    1.0
 
-Ex_input    5.0
-Ey_input    0.0
+Ex_input    0.0
+Ey_input    0.1
 Ez_input    0.0
 
 X1_input    0.0
 X2_input    0.0
 X3_input    0.0
 
-V1_input    0.0
-V2_input    -0.5
-V3_input    0.5
+V1_input    0.1
+V2_input    0.0
+V3_input    0.0
