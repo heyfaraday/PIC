@@ -5,8 +5,8 @@
 
 #include "boris_push.hpp"
 
-void borisPusher(std::vector<double>& v, std::vector<double>& E,
-                 std::vector<double>& B, double chargeOverMass, double dt) {
+void borisPusher(std::vector<double>& v, std::vector<double> E,
+                 std::vector<double> B, double chargeOverMass, double dt) {
     std::vector<double> v_s(4);
     std::vector<double> v_cross_B(4);
     double f1, f2;
@@ -36,8 +36,8 @@ void borisPusher(std::vector<double>& v, std::vector<double>& E,
     v.at(3) += (dt * chargeOverMass / 2.0) * E.at(3);
 }
 
-void borisPusher_explicit(std::vector<double>& v, std::vector<double>& E,
-                          std::vector<double>& B, double chargeOverMass, double dt) {
+void borisPusher_explicit(std::vector<double>& v, std::vector<double> E,
+                          std::vector<double> B, double chargeOverMass, double dt) {
     std::vector<double> v_s(4);
     std::vector<double> v_cross_B(4);
     double f1, f2;
