@@ -1,4 +1,4 @@
-# PIC_course
+# pic
 Particle-in-cell MIPT course, spring 2017
 
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]() 
