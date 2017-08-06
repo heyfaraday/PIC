@@ -2,5 +2,14 @@
 name = "pic"
 version = "0.1.0"
 authors = ["Ivan Edigarev <heyfaraday@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/heyfaraday/pic"
+description = """
+Particle-in-cell MIPT course
+"""
+
+[lib]
+name = "piclib"
+path = "src/lib.rs"
 
 [dependencies]

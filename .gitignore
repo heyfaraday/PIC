@@ -11,7 +11,10 @@ Cargo.lock
 **/*.rs.bk
 
 # IntelliJ IDEA Rust plugin
-pic.iml
+*.iml
 
 # IntelliJ IDEA
 .idea
+
+# macOS
+*.DS_Store
